@@ -6,9 +6,9 @@
   "author": "airobus",
   "homepage_url": "https://github.com/airobus/app-browser-image-downloader",
   "icons": {
-    "16": "icon16.svg",
-    "48": "icon48.svg",
-    "128": "icon128.svg"
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
   },
   "permissions": [
     "downloads",
@@ -21,9 +21,9 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon16.svg",
-      "48": "icon48.svg",
-      "128": "icon128.svg"
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
     },
     "default_title": "批量图片下载器"
   },
