@@ -1,0 +1,25 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad48" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="48" height="48" rx="10" fill="url(#bgGrad48)"/>
+  
+  <!-- Image frame -->
+  <rect x="8" y="8" width="32" height="22" rx="3" fill="white" opacity="0.9"/>
+  <rect x="10" y="10" width="28" height="18" rx="2" fill="#e0e7ff"/>
+  
+  <!-- Simple mountain -->
+  <path d="M 16 22 L 20 14 L 24 18 L 28 13 L 34 22 Z" fill="#667eea" opacity="0.6"/>
+  <circle cx="18" cy="14" r="2" fill="#fbbf24" opacity="0.8"/>
+  
+  <!-- Download arrow -->
+  <circle cx="34" cy="34" r="10" fill="white" opacity="0.95"/>
+  <path d="M 34 28 L 34 38 M 34 38 L 30 34 M 34 38 L 38 34" 
+        stroke="#667eea" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="29" y1="40" x2="39" y2="40" stroke="#667eea" stroke-width="2" stroke-linecap="round"/>
+</svg>

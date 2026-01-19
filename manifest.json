@@ -1,8 +1,15 @@
 {
   "manifest_version": 3,
   "name": "批量图片下载器",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "选择并批量下载网页中的图片，支持跨域下载",
+  "author": "airobus",
+  "homepage_url": "https://github.com/airobus/app-browser-image-downloader",
+  "icons": {
+    "16": "icon16.svg",
+    "48": "icon48.svg",
+    "128": "icon128.svg"
+  },
   "permissions": [
     "downloads",
     "activeTab",
@@ -12,7 +19,13 @@
     "<all_urls>"
   ],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.svg",
+      "48": "icon48.svg",
+      "128": "icon128.svg"
+    },
+    "default_title": "批量图片下载器"
   },
   "background": {
     "service_worker": "background.js"

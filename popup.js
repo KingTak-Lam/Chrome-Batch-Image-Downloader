@@ -55,6 +55,15 @@ function displayImages(images) {
       <div class="info">${img.width}x${img.height}</div>
     `;
 
+    // 图片加载错误处理
+    const imgElement = card.querySelector('img');
+    imgElement.addEventListener('error', () => {
+      imgElement.style.opacity = '0.3';
+      imgElement.alt = '加载失败';
+      card.querySelector('.info').textContent = '加载失败';
+      card.querySelector('.info').style.color = '#f44336';
+    });
+
     card.addEventListener('click', (e) => {
       if (e.target.type === 'checkbox') return;
       const checkbox = card.querySelector('.checkbox');
@@ -118,7 +127,20 @@ document.getElementById('download').addEventListener('click', async () => {
 
   for (const index of selectedArray) {
     const img = allImages[index];
-    const filename = `image_${index + 1}_${Date.now()}.jpg`;
+
+    // 从URL中提取文件扩展名
+    let ext = '.jpg'; // 默认扩展名
+    try {
+      const urlPath = new URL(img.url).pathname;
+      const match = urlPath.match(/\.(jpg|jpeg|png|gif|webp|bmp|svg)$/i);
+      if (match) {
+        ext = match[0].toLowerCase();
+      }
+    } catch (e) {
+      console.log('无法解析URL:', img.url);
+    }
+
+    const filename = `image_${index + 1}_${Date.now()}${ext}`;
 
     try {
       await chrome.runtime.sendMessage({
