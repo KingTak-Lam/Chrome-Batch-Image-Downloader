@@ -26,6 +26,9 @@ dist/
 build/
 *.zip
 
+# Extension packages
+extension-*.zip
+
 # Temporary files
 *.tmp
 *.temp
