@@ -97,7 +97,7 @@ extension.zip
 ✅ 不上传任何信息到服务器
 ✅ 所有操作都在本地完成
 
-开源项目地址：https://github.com/airobus/app-browser-image-downloader
+开源项目地址：https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader
 ```
 
 #### 分类

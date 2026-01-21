@@ -33,7 +33,7 @@
 ### 📤 Git仓库（100%完成）
 - ✅ 已初始化Git仓库
 - ✅ 已推送到GitHub
-- ✅ 仓库地址：https://github.com/airobus/app-browser-image-downloader
+- ✅ 仓库地址：https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader
 
 ---
 
@@ -48,7 +48,7 @@
 
 2. **打包扩展** 📦
    ```bash
-   cd /Users/pangmengting/workspace/app-browser/image-downloader
+   cd /path/to/your/project
    ./package.sh
    ```
    这将生成 `extension-v1.0.0.zip` 文件
@@ -143,7 +143,7 @@
 ## 📞 需要帮助？
 
 - 📖 查看 `PUBLISHING.md` 获取详细发布步骤
-- 🐛 在GitHub提交Issue: https://github.com/airobus/app-browser-image-downloader/issues
+- 🐛 在GitHub提交Issue: https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader/issues
 - 📧 联系开发者
 
 ---

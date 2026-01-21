@@ -16,7 +16,7 @@
 ### 方法2：开发者模式安装
 1. 下载本项目
    ```bash
-   git clone https://github.com/airobus/app-browser-image-downloader.git
+   git clone https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader.git
    ```
 
 2. 打开Chrome浏览器，访问 `chrome://extensions/`
@@ -80,7 +80,7 @@ A: 当前版本使用自动命名（image_序号_时间戳.扩展名），未来
 ## 🐛 遇到问题？
 
 在GitHub提交Issue：  
-https://github.com/airobus/app-browser-image-downloader/issues
+https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader/issues
 
 ## 📄 许可
 

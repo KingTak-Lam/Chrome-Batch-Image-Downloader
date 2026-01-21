@@ -3,8 +3,8 @@
   "name": "批量图片下载器",
   "version": "1.0.0",
   "description": "选择并批量下载网页中的图片，支持跨域下载",
-  "author": "airobus",
-  "homepage_url": "https://github.com/airobus/app-browser-image-downloader",
+  "author": "KingTak-Lam",
+  "homepage_url": "https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",

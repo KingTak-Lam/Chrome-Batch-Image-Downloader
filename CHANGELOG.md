@@ -70,4 +70,4 @@
 
 ---
 
-欢迎在 [GitHub Issues](https://github.com/airobus/app-browser-image-downloader/issues) 提出建议和反馈！
+欢迎在 [GitHub Issues](https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader/issues) 提出建议和反馈！

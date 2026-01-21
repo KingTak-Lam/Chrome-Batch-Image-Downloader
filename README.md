@@ -30,7 +30,7 @@ A clean and efficient browser extension that helps you quickly select and batch 
 
 1. 下载或克隆此仓库
    ```bash
-   git clone https://github.com/airobus/app-browser-image-downloader.git
+   git clone https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader.git
    ```
 
 2. 打开 Chrome 浏览器，访问 `chrome://extensions/`
@@ -97,8 +97,8 @@ A clean and efficient browser extension that helps you quickly select and batch 
 
 ## 📮 联系方式 | Contact
 
-- GitHub: [@airobus](https://github.com/airobus)
-- 项目地址: [app-browser-image-downloader](https://github.com/airobus/app-browser-image-downloader)
+- GitHub: [@KingTak-Lam](https://github.com/KingTak-Lam)
+- 项目地址: [Chrome-Batch-Image-Downloader](https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader)
 
 ## 🙏 致谢 | Acknowledgments
 

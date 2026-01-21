@@ -55,7 +55,7 @@
 ### 联系我们
 
 如有任何隐私相关问题，请通过 GitHub Issues 联系我们：  
-https://github.com/airobus/app-browser-image-downloader/issues
+https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader/issues
 
 ---
 
@@ -111,7 +111,7 @@ If there are significant changes to the privacy policy, we will notify users in 
 ### Contact Us
 
 For any privacy-related questions, please contact us via GitHub Issues:  
-https://github.com/airobus/app-browser-image-downloader/issues
+https://github.com/KingTak-Lam/Chrome-Batch-Image-Downloader/issues
 
 ---
 
